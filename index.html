@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Alexandra George Portfolio</title>
+<link rel="icon" type="image/x-icon" href="/Images/favicon.ico">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Courier New, serif;
+  background-color: black;
+}
+
+
+header {
+  background-color: #ac5377;
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;
+  color: ghostwhite;
+}
+
+
+nav {
+  float: left;
+  width: 15%;
+  height: 300px; 
+  background: #330014;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a:link {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #9090d5;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #39c68e;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: transparent;
+  height: 300px; 
+  color: white;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+footer {
+  background-color: #ac5377;
+  padding: 5px;
+  text-align: center;
+  color: white;
+}
+
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<header>
+  <h1>Alexandra George</h1>
+  <h2>Art and Design</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="bio.html">About Me</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h2>Welcome!</h2>
+    <p>This is my portfolio website for MMP 100 at Cuny BMCC. Feel free to explore by using any of the links to the left.</p>
+  </article>
+</section>
+
+<footer>
+  <p>© Alexandra George 2023</p>
+</footer>
+
+</body>
+</html>
+
